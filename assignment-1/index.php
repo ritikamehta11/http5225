@@ -24,11 +24,12 @@
 
     <?php foreach ($venueS as $row) {
 
-      echo "<a href='https://www.google.com' > <div class='card'> <h4> " . $row['NAME'] . "</h4>";
+      echo "<div class='card'> <h3> " . $row['NAME'] . "</h3>";
       echo $row['CATEGORY'] . "<br/>";
       // echo $row['PHONE'] . "<br/>";
       echo "<span class='bold-subhead'>Description: </span>" . $row['ATTRACTION'];
-      echo "</div></a> ";
+      echo "<br/> <button><a href=' " . $row['WEBSITE'] . " ' > Visit the website</a></button>";
+      echo "</div>";
     } ?>
 
   </div>
