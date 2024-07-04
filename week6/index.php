@@ -1,3 +1,8 @@
+<?php
+include ('reusables/nav.php');
+include ('inc/functions.php');
+secure();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,9 +16,7 @@
 
 <body>
     <!-- Navigation -->
-    <?php include ('reusables/nav.php');
-    include ('inc/functions.php');
-    ?>
+
 
     <!-- you can use require here ->it will stop here if not working -->
     <div class="container-fluid">
